@@ -82,7 +82,7 @@ const Homepage = () => {
                 <div className='sm:w-1/2 w-full h-full   text-start'>
                     <h1 className='text-2xl font-semibold text-[var(--primary-color)]'>Quality</h1>
                     <h1 className='text-4xl font-semibold text-black my-3'>Exploring the reach flavor and diverse of the world</h1>
-                    <p className='text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet ex scelerisque orci pharetra placerat nec id ante. Quisque at lacinia odio. Sed eu risus porttitor nisi vulputate consequat.</p>
+                    <p className='text-base'>At GoodFood, we bring you the rich and diverse flavors of the world, crafted with the freshest ingredients and authentic recipes. Whether it’s a classic Italian pizza or exotic global cuisines, every bite is a journey of taste and quality. Experience the joy of gourmet dining from the comfort of your home.</p>
                     <button onClick={()=>navigate('/menu')} className='px-4 py-2 rounded-full text-white bg-[var(--primary-color)] mt-6'>Explore</button>
 
                 </div>
