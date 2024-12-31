@@ -8,7 +8,7 @@ import { ExclusiveOffersBar } from '../components/ExclusiveOffersBar'
 import FoodCard from '../components/FoodCard'
 import { customerFeedbackData } from '../assets/customerFeedbackData'
 import FeedbackCard from '../components/FeedbackCard'
-import pizzaImage from '../assets/images/pizzaPng.png'
+
 import { FoodContext } from '../contexts/FoodContext'
 import FoodsWeOfferBar from '../components/FoodsWeOfferBar'
 import { useNavigate } from 'react-router-dom'
@@ -77,7 +77,7 @@ const Homepage = () => {
             <section className='w-full sm:flex  min-h-[300px]  gap-5 mt-28 items-center '>
 
                 <div className='sm:w-1/2 w-full  flex items-center justify-center'>
-<img className='max-h-[400px] ' src={pizzaImage}/>
+<img className='max-h-[400px] ' src={'https://img.freepik.com/free-psd/top-view-delicious-pizza_23-2151868918.jpg?uid=R136542985&ga=GA1.1.1179909901.1721219002&semt=ais_hybrid'}/>
                 </div>
                 <div className='sm:w-1/2 w-full h-full   text-start'>
                     <h1 className='text-2xl font-semibold text-[var(--primary-color)]'>Quality</h1>
