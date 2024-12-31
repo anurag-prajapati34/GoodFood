@@ -1,0 +1,19 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+
+  text-align: center;
+  --primary-color: #FC8A06;
+
+  --secondary-color: #fc890641;
+  --btn-hover-color:#cb6f05;
+}
+.sidebar{
+  
+}
+
+@media (max-width:620px) {
+  .sidebar{
+    display: none;
+  }
+}
