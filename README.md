@@ -65,7 +65,7 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ### Connect with Me
-- **GitHub**: [My Portfolio](https://anurag-prajapati.vercel.app/)
+- **Portfolio**: [My Portfolio](https://anurag-prajapati.vercel.app/)
 - **GitHub**: [My GitHub Profile](https://github.com/anurag-prajapati34)
 - **LinkedIn**: [My LinkedIn Profile](https://www.linkedin.com/in/anurag-prajapati34/)
 
