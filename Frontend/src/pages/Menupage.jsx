@@ -50,7 +50,8 @@ const Menupage = () => {
 
       <section className='w-full flex flex-col gap-5 mt-10'>
         <h1 className='text-3xl  text-start '>{foodFilteredCategory} </h1>
-        <div className='w-full flex  gap-5 flex-wrap'>
+        {
+          products?<div className='w-full flex  gap-5 flex-wrap'>
           {
             products.map((food) => 
             
@@ -65,7 +66,10 @@ const Menupage = () => {
           }
 
 
+        </div>:<div className='w-full h-screen text-black font-semibold text-xl flex items-center justify-center'>
+          Loading...
         </div>
+        }
       </section>
 
     </div>
